@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0c0a09; /* A very dark, near-black background */
+        }
+        .gradient-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        .gradient-blur {
+            position: absolute;
+            width: 50vw;
+            height: 50vw;
+            max-width: 600px;
+            max-height: 600px;
+            border-radius: 9999px;
+            filter: blur(100px);
+        }
+        .gradient2-blur {
+            position: absolute;
+            width: 50vw;
+            height: 50vw;
+            max-width: 600px;
+            max-height: 600px;
+            border-radius: 9999px;
+            filter: blur(100px);
+        }
+        .purple-blur {
+            background-color: rgba(168, 85, 247, 0.3); /* Purple with transparency */
+            top: -10%;
+            right: -10%;
+        }
+
+        .purple2-blur {
+            background-color: rgba(168, 85, 247, 0.3); /* Purple with transparency */
+            bottom: -10%;
+            left: -10%;
+        }
+
+        .pink-blur {
+            background-color: rgba(219, 39, 119, 0.2); /* Pink with transparency */
+            bottom: -10%;
+            left: -10%;
+        }
+
+        .pink2-blur {
+            background-color: rgba(219, 39, 119, 0.2); /* Pink with transparency */
+            top: -10%;
+            right: -10%;
+        }
+
+        .feature-card {
+            background-color: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        .feature-card:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+            border-color: rgba(168, 85, 247, 0.5);
+            transform: translateY(-5px);
+        }
+        .step-item {
+             background-color: rgba(255, 255, 255, 0.03);
+             border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+
+.radient-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        .radient-blur {
+            position: absolute;
+            width: 50vw;
+            height: 50vw;
+            max-width: 600px;
+            max-height: 600px;
+            border-radius: 9999px;
+            filter: blur(100px);
+        }
+        .urple-blur {
+            background-color: rgba(168, 85, 247, 0.3); /* Purple with transparency */
+            top: -10%;
+            right: -10%;
+        }
+        .ink-blur {
+            background-color: rgba(219, 39, 119, 0.2); /* Pink with transparency */
+            bottom: -10%;
+            left: -10%;
+        }
+        .orm-container {
+            background-color: rgba(17, 15, 14, 0.8);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .orm-input {
+            background-color: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .orm-input:focus {
+            outline: none;
+            border-color: #a855f7; /* Purple focus color */
+            box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.5);
+        }
