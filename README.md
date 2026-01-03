@@ -88,7 +88,7 @@ git clone https://github.com/ansh94082/codeassist
 2️⃣ Run the Frontend
 
 ```bash
-Copy code
+ 
 cd codeassist/client
 npm install
 npm run dev
@@ -97,7 +97,7 @@ npm run dev
 
 3️⃣ Run the WebSocket Server (New Terminal)
 ```bash
-Copy code
+
 cd codeassist/websocket
 node index.js ```
 🔌 Starts the WebSocket server for real-time collaboration.
@@ -172,4 +172,5 @@ If you find this project useful:
 🧠 Learn from it
 
 Built with ❤️ by Ansh
+
 
