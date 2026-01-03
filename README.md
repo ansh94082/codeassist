@@ -77,19 +77,6 @@ The project focuses heavily on **real-world deployment challenges**, not just lo
 
 ---
 
-## 📁 Project Structure
-
-codeassist/
-│
-├── client/ # Next.js frontend
-│
-├── websocket/ # WebSocket server
-│
-└── README.md
-
-yaml
-Copy code
-
 ---
 
 ## 🚀 Getting Started
@@ -97,19 +84,22 @@ Copy code
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/ansh94082/codeassist
+```
 2️⃣ Run the Frontend
-bash
+
+```bash
 Copy code
 cd codeassist/client
 npm install
 npm run dev
+```
 🖥️ Starts the Next.js development server.
 
 3️⃣ Run the WebSocket Server (New Terminal)
-bash
+```bash
 Copy code
 cd codeassist/websocket
-node index.js
+node index.js ```
 🔌 Starts the WebSocket server for real-time collaboration.
 
 ⚙️ How CodeAssist Works
@@ -182,3 +172,4 @@ If you find this project useful:
 🧠 Learn from it
 
 Built with ❤️ by Ansh
+
