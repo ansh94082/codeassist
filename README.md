@@ -97,9 +97,9 @@ npm run dev
 
 3️⃣ Run the WebSocket Server (New Terminal)
 ```bash
-
 cd codeassist/websocket
-node index.js ```
+node index.js
+```
 🔌 Starts the WebSocket server for real-time collaboration.
 
 ⚙️ How CodeAssist Works
@@ -172,5 +172,6 @@ If you find this project useful:
 🧠 Learn from it
 
 Built with ❤️ by Ansh
+
 
 
